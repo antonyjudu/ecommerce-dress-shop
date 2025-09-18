@@ -16,7 +16,16 @@ connectCloudinary();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+const allowedOrigins = [
+  "https://ecommerce-dress-shop-frontend.vercel.app", // your frontend
+  "http://localhost:5173" // for local dev
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 
 // API endpoints
 app.use('/api/user', userRouter);
