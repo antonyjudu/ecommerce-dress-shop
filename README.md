@@ -71,6 +71,27 @@ Clone the repo and install dependencies:
 ```bash
 git clone https://github.com/your-username/ecommerce-app.git
 cd ecommerce-app
+```
+
+🖼️ Screenshots
+
+🏠 Home Page
+
+![Home](https://github.com/user-attachments/assets/357b0c88-509e-4940-80f9-1374e6275cd3)
+
+👗 Collection Page
+
+![Collection](https://github.com/user-attachments/assets/0a6a1c75-2747-4b94-b03d-98a463e6c3ad)
+
+🛒 Cart Page
+
+![Cart](https://github.com/user-attachments/assets/76b2f291-0be7-4341-8347-59909a8248b2)
+
+🔐 Admin Dashboard
+
+![Admin](https://github.com/user-attachments/assets/a8b31727-3e44-4927-8748-a3739eadc96c)
+
+
 
 
 
