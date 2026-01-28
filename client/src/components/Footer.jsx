@@ -1,5 +1,6 @@
 import React from 'react'
 import { assets } from '../assets/assets.js';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -8,16 +9,16 @@ function Footer() {
         <div>
             <img src={assets.logo} className='mb-5 w-32' alt='logo' />
             <p className='w-full md:w-2/3 text-gray-600'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti. Enim aspernatur beatae in corporis inventore tempore, architecto at modi reiciendis voluptatem porro tempora, cumque ex assumenda ipsam sit! Minima.
+                Your destination for stylish, trend-forward dresses. From everyday elegance to statement pieces, we bring you curated fashion you’ll love. Subscribe for the latest arrivals, exclusive deals, and style tips.
             </p>
         </div>
         <div>
             <p className='text-xl font-medium mb-5'>COMPANY</p>
             <ul className='flex flex-col gap-1 text-gray-600'>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Delivery</li>
-                <li>Privacy Policy</li>
+                <Link to='/'><li className='cursor-pointer'>Home</li></Link>
+                <Link to='/about'><li className='cursor-pointer'>About Us</li></Link>
+                <li className='cursor-pointer'>Delivery</li>
+                <li className='cursor-pointer'>Privacy Policy</li>
             </ul>
         </div>
         <div>

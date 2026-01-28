@@ -38,7 +38,6 @@ app.get('/', (req, res) => {
     res.send('API Working!');
 });
 
-
 app.listen(PORT, () => {
     console.log('Port connected on', PORT);
 });
